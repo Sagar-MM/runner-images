@@ -150,8 +150,7 @@ $toolsList = @(
     (Get-RVersion),
     (Get-SphinxVersion),
     (Get-TerraformVersion),
-    (Get-YamllintVersion),
-    (Get-ZstdVersion)
+    (Get-YamllintVersion)
 )
 
 if ((Test-IsUbuntu18) -or (Test-IsUbuntu20)) {
